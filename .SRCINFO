@@ -1,6 +1,6 @@
 pkgbase = attune-bin
 	pkgdesc = Attune command-line interface and MCP server
-	pkgver = 0.9.0
+	pkgver = 0.10.0
 	pkgrel = 1
 	url = https://github.com/attune-system/attune
 	arch = x86_64
@@ -8,9 +8,9 @@ pkgbase = attune-bin
 	license = Apache-2.0
 	provides = attune
 	conflicts = attune
-	source_x86_64 = attune_0.9.0_linux_amd64.tar.gz::https://github.com/attune-system/attune/releases/download/v0.9.0/attune_0.9.0_linux_amd64.tar.gz
-	sha256sums_x86_64 = 77c610851c2fa1cb33d4fa5ab8bd91489e56e0e26cbd953185e29d23c88da253
-	source_aarch64 = attune_0.9.0_linux_arm64.tar.gz::https://github.com/attune-system/attune/releases/download/v0.9.0/attune_0.9.0_linux_arm64.tar.gz
-	sha256sums_aarch64 = 43221932339cfa0cfb40420908d40ba9e1e2eb82fb72487d900c9302fc3be422
+	source_x86_64 = attune_0.10.0_linux_amd64.tar.gz::https://github.com/attune-system/attune/releases/download/v0.10.0/attune_0.10.0_linux_amd64.tar.gz
+	sha256sums_x86_64 = 6b6a437edb367db8554cccc229ca9ad9a1bfb8580f371771c82bd0f982f89b2c
+	source_aarch64 = attune_0.10.0_linux_arm64.tar.gz::https://github.com/attune-system/attune/releases/download/v0.10.0/attune_0.10.0_linux_arm64.tar.gz
+	sha256sums_aarch64 = 8ffcb1b94de0ae3725d9e8e347c91a84c88b5ddefd9135552c6b19e173e99cc8
 
 pkgname = attune-bin
