@@ -1,6 +1,6 @@
 # Maintained by the release workflow. Do not publish this template to AUR.
 pkgname=attune-bin
-pkgver=0.10.0
+pkgver=0.10.1
 pkgrel=1
 pkgdesc='Attune command-line interface and MCP server'
 arch=('x86_64' 'aarch64')
@@ -9,9 +9,9 @@ license=('Apache-2.0')
 provides=('attune')
 conflicts=('attune')
 source_x86_64=("attune_${pkgver}_linux_amd64.tar.gz::https://github.com/attune-system/attune/releases/download/v${pkgver}/attune_${pkgver}_linux_amd64.tar.gz")
-sha256sums_x86_64=('6b6a437edb367db8554cccc229ca9ad9a1bfb8580f371771c82bd0f982f89b2c')
+sha256sums_x86_64=('c21eb357be5f01b0c8e0884a9a7ea460f01dd828c484c9a8f12b80052cabb969')
 source_aarch64=("attune_${pkgver}_linux_arm64.tar.gz::https://github.com/attune-system/attune/releases/download/v${pkgver}/attune_${pkgver}_linux_arm64.tar.gz")
-sha256sums_aarch64=('8ffcb1b94de0ae3725d9e8e347c91a84c88b5ddefd9135552c6b19e173e99cc8')
+sha256sums_aarch64=('84d0f2518fc7fc7ebdb5339cdd04f0815622fdb984a3d6c7d0403bbadab3bc99')
 
 package() {
   install -Dm755 "$srcdir/attune" "$pkgdir/usr/bin/attune"
